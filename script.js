@@ -8,6 +8,4 @@ function onefunction() {
     function fun() {
         document.getElementById("hello").innerHTML="welcome";
         document.getElementById("hello").style.color="Green";
-        
-
     }

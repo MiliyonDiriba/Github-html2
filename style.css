@@ -3,7 +3,7 @@
  } 
  
  body {
-   fontFamily:Arial, Helvetica, sans-serf; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  header {
     background: #666;

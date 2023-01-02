@@ -49,3 +49,43 @@ section::after {
         height: auto;
     }
 }
+.menu {
+float:left;
+width: 20%;
+
+}
+.menuitem {
+padding: 8px;
+border-bottom: 1Px solid #f1f1f1;
+
+}
+.main {
+float: right;
+width: 60%;
+padding:0 20px;
+overflow: hidden;
+}
+.right {
+background-color: lightblue;
+float:left;
+width: 20%;
+padding: 10px 15px;
+margin-top: 7px;
+}
+@media only screen and (max-width:800px) {
+/* for tablet */
+.main {
+padding: 0;
+width: 80%;
+  }
+  .right {
+width: 100%;
+height: auto;
+  }
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
